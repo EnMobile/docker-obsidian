@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutomatedInstallation langpack="eng-cad">
+<com.izforge.izpack.panels.HTMLHelloPanel id="UNKNOWN (com.izforge.izpack.panels.HTMLHelloPanel)"/>
+<com.izforge.izpack.panels.LicencePanel id="UNKNOWN (com.izforge.izpack.panels.LicencePanel)"/>
+<com.izforge.izpack.panels.TargetPanel id="UNKNOWN (com.izforge.izpack.panels.TargetPanel)">
+<installpath>/usr/share/obsidian</installpath>
+</com.izforge.izpack.panels.TargetPanel>
+<com.izforge.izpack.panels.PacksPanel id="UNKNOWN (com.izforge.izpack.panels.PacksPanel)">
+<pack index="0" name="Obsidian WAR" selected="true"/>
+<pack index="1" name="Obsidian Standalone Admin WAR" selected="true"/>
+<pack index="2" name="Standalone Obsidian Runtime" selected="true"/>
+<pack index="3" name="Obsidian License Proxy" selected="false"/>
+<pack index="4" name="Documentation" selected="true"/>
+<pack index="5" name="Winstone" selected="false"/>
+<pack index="6" name="License" selected="true"/>
+</com.izforge.izpack.panels.PacksPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.0">
+<userInput>
+<entry key="email.type" value="open"/>
+<entry key="licence.key" value=""/>
+<entry key="auth.type" value="db"/>
+<entry key="log.path" value="/dev/stdout"/>
+<entry key="company.name" value=""/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.1">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.2">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.3">
+<userInput>
+<entry key="db.schema" value=""/>
+<entry key="database.url" value="jdbc:h2:/mnt/db/obsidian;MVCC=TRUE"/>
+<entry key="database.password" value="sa"/>
+<entry key="database.table.prefix" value=""/>
+<entry key="database.connection.timeout" value="2000"/>
+<entry key="database.username" value="sa"/>
+<entry key="database.jndi.name" value=""/>
+<entry key="database.max.connections" value="40"/>
+<entry key="include.all.jdbc" value="true"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.4">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.5">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.6">
+<userInput>
+<entry key="smtp.host" value="mail"/>
+<entry key="smtp.port" value="25"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.7">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.8">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.9">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.10">
+<userInput>
+<entry key="jarjar.postgres" value="false"/>
+<entry key="jarjar.jxl" value="false"/>
+<entry key="jarjar.dom4j" value="false"/>
+<entry key="jarjar.jmustache" value="false"/>
+<entry key="jarjar.gson" value="false"/>
+<entry key="jarjar.mariadb" value="false"/>
+<entry key="jarjar.opencsv" value="false"/>
+<entry key="jarjar.sqlserver" value="false"/>
+<entry key="jarjar.h2" value="false"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.11">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.12">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.13">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.14">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.15">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.InstallPanel id="UNKNOWN (com.izforge.izpack.panels.InstallPanel)"/>
+<com.izforge.izpack.panels.ProcessPanel id="UNKNOWN (com.izforge.izpack.panels.ProcessPanel)"/>
+<com.izforge.izpack.panels.FinishPanel id="UNKNOWN (com.izforge.izpack.panels.FinishPanel)"/>
+</AutomatedInstallation>

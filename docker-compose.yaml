@@ -1,0 +1,4 @@
+obsidian:
+  build: .
+  ports:
+    - "80:8080"
