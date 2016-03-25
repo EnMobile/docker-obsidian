@@ -36,4 +36,4 @@ See the docker-compose.yaml file in this repository for a quick example.  Consid
 
 ### After starting up
 
-After few seconds, open http://<host\>:\<port\> to see the Obsidian admin console and log in using "admin" / "changeme".
+After few seconds, open http://\<host\>:\<port\> to see the Obsidian admin console and log in using "admin" / "changeme".
