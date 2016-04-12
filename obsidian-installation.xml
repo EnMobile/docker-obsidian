@@ -32,7 +32,7 @@
 <com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.3">
 <userInput>
 <entry key="db.schema" value=""/>
-<entry key="database.url" value="jdbc:h2:/mnt/db/obsidian;MVCC=TRUE"/>
+<entry key="database.url" value="jdbc:h2:/mnt/db/obsidian/db;MVCC=TRUE"/>
 <entry key="database.password" value="sa"/>
 <entry key="database.table.prefix" value=""/>
 <entry key="database.connection.timeout" value="2000"/>
