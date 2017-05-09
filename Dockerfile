@@ -7,7 +7,7 @@ RUN apt-get update && \
     apt-get install -y wget && \
     apt-get clean && \
     unzip obsidian-4.1.0.zip && \
-    java -jar Obsidian-Install-4.1.0.jar obsidian-installation.xml && \
+    java -jar Obsidian-Install-4.2.1.jar obsidian-installation.xml && \
     mv /usr/local/tomcat/webapps/ROOT /usr/local/tomcat/webapps/ROOT.bak && \
     ln -s /usr/share/obsidian/obsidian.war /usr/local/tomcat/webapps/ROOT.war
 
