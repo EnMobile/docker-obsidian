@@ -1,6 +1,6 @@
 FROM tomcat:jre8
 
-ADD http://obsidianscheduler.com/obsidian-4.1.0.zip /install/
+ADD http://obsidianscheduler.com/obsidian-4.2.1.zip /install/
 COPY obsidian-installation.xml /install/
 WORKDIR /install
 RUN apt-get update && \
