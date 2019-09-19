@@ -1,5 +1,6 @@
 # Docker Obsidian Scheduler 4.10.1
 This repository contains the Dockerfile and automated configuration file to create an [Obsidian scheduler](http://obsidianscheduler.com/) standalone instance.
+The Git repo is forked from [EnMobile/docker-obsidian](https://github.com/EnMobile/docker-obsidian.)
 
 ## Base Docker Image
 [tomcat:jre8](https://github.com/docker-library/tomcat/blob/ed98c30c1cd42c53831f64dffa78a0abf7db8e9a/8-jre8/Dockerfile) from [DockerHub](https://hub.docker.com/_/tomcat/)
