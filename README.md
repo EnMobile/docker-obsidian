@@ -15,13 +15,13 @@ Download automated build from public DockerHub Registery:
 Alternatively, you can build an image directly from this repository:
 >docker build -t="codingwombat/obsidian-scheduler" github.com/codingWombat/docker-obsidian
 
-##Usage
+## Usage
 
 >docker run -d -p 80:8080 codingwombat/obsidian-scheduler
 
 Default user / password are "admin" / "changeme" (see the [Obsidian Scheduler wiki](http://obsidianscheduler.com/wiki/Main_Page) for more information)
 
-##Customization
+## Customization
 
 ### Option 1 - docker run
 >docker run -d -p 80:8080 -v \<path-to/location-to-persist/tasks-and-config\>:/mnt/db/obsidian codingwombat/obsidian-scheduler
