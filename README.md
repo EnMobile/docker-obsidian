@@ -1,4 +1,4 @@
-# Docker Obsidian Scheduler 4.1
+# Docker Obsidian Scheduler 4.10.1
 This repository contains the Dockerfile and automated configuration file to create an [Obsidian scheduler](http://obsidianscheduler.com/) standalone instance.
 
 ## Base Docker Image
