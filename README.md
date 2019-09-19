@@ -9,21 +9,21 @@ This repository contains the Dockerfile and automated configuration file to crea
 Install Docker.
 
 Download automated build from public DockerHub Registery:
->docker pull enmobile/obsidian
+>docker pull codingwombat/obsidian-scheduler
 
 Alternatively, you can build an image directly from this repository:
->docker build -t="enmobile/obsidian" github.com/EnMobile/docker-obsidian
+>docker build -t="codingwombat/obsidian-scheduler" github.com/codingWombat/docker-obsidian
 
 ##Usage
 
->docker run -d -p 80:8080 enmobile/obsidian
+>docker run -d -p 80:8080 codingwombat/obsidian-scheduler
 
 Default user / password are "admin" / "changeme" (see the [Obsidian Scheduler wiki](http://obsidianscheduler.com/wiki/Main_Page) for more information)
 
 ##Customization
 
 ### Option 1 - docker run
->docker run -d -p 80:8080 -v \<path-to/location-to-persist/tasks-and-config\>:/mnt/db/obsidian enmobile/obsidian
+>docker run -d -p 80:8080 -v \<path-to/location-to-persist/tasks-and-config\>:/mnt/db/obsidian codingwombat/obsidian-scheduler
 
 where \<path-to/location-to-persist/tasks-and-config\> is an absolute path of a directory to store the H2 database that contains Obsidian task configuration and history
 
