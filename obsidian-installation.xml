@@ -11,7 +11,7 @@
 <pack index="2" name="Standalone Obsidian Runtime" selected="true"/>
 <pack index="3" name="Obsidian License Proxy" selected="false"/>
 <pack index="4" name="Documentation" selected="true"/>
-<pack index="5" name="Winstone" selected="false"/>
+<pack index="5" name="Jetty" selected="false"/>
 <pack index="6" name="License" selected="true"/>
 </com.izforge.izpack.panels.PacksPanel>
 <com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.0">
@@ -90,6 +90,14 @@
 </com.izforge.izpack.panels.UserInputPanel>
 <com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.15">
 <userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UserInputPanel.16">
+<userInput>
+<entry key="script.beanshell" value="true"/>
+<entry key="script.jruby" value="false"/>
+<entry key="script.groovy" value="true"/>
+<entry key="script.jython" value="true"/>
+</userInput>
 </com.izforge.izpack.panels.UserInputPanel>
 <com.izforge.izpack.panels.InstallPanel id="UNKNOWN (com.izforge.izpack.panels.InstallPanel)"/>
 <com.izforge.izpack.panels.ProcessPanel id="UNKNOWN (com.izforge.izpack.panels.ProcessPanel)"/>
